@@ -24,7 +24,6 @@ dependencies:
   - jupyterlab
   - jupyter-server-proxy
   - jupyter-vscode-proxy==0.6.0
-  - jupyter-keepalive
   - code-server
   - pip
   - pip:
