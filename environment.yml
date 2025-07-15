@@ -21,12 +21,16 @@ dependencies:
   - cbsyst
   - colorcet
   - seaborn
+  - jupyterlab
+  - jupyter-server-proxy
+  - jupyter-vscode-proxy==0.6.0
+  - jupyter-keepalive
+  - code-server
   - pip
   - pip:
     - git+https://github.com/atmtools/climt@rrtmg-only
     - konrad
-    - jupyter-vscode-proxy==0.6.0
-    - jupyter-server-proxy
+    - jupyter-vscode-proxy==0.6.0 #redundant but necessary
     - jupyter-keepalive
 
 

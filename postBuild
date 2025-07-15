@@ -4,10 +4,4 @@ set -euxo pipefail
 # 1. Reinstall and enable the Jupyter proxy extensions
 pip install --force-reinstall jupyter-server-proxy jupyter-vscode-proxy==0.6.0
 jupyter server extension enable --py jupyter_vscode_proxy
-
-# 2. Install code-server (the VS Code backend) into PATH
-curl -fsSL https://code-server.dev/install.sh | sh
-
-# 3. (Optional) Verify code-server is on PATH
-which code-server
-
+jupyter server extension list
