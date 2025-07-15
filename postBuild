@@ -2,7 +2,7 @@
 set -euxo pipefail
 
 # Reinstall the server extension explicitly from source
-pip install --force-reinstall jupyter-vscode-proxy==0.6.0
+pip install --force-reinstall jupyter-vscode-proxy==0.6.0 jupyter-server-proxy
 
 # Enable the server extension
 jupyter server extension enable --py jupyter_vscode_proxy

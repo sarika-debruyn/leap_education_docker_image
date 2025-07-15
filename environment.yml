@@ -26,6 +26,7 @@ dependencies:
     - git+https://github.com/atmtools/climt@rrtmg-only
     - konrad
     - jupyter-vscode-proxy==0.6.0
+    - jupyter-server-proxy
     - jupyter-keepalive
 
 
