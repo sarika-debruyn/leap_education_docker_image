@@ -25,3 +25,5 @@ dependencies:
   - pip:
     - git+https://github.com/atmtools/climt@rrtmg-only
     - konrad
+    - jupyter-vscode-proxy
+    - jupyter-keepalive

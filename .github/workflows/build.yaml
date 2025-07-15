@@ -36,7 +36,7 @@ jobs:
         # so all contents put in /home/jovyan are lost. This particularly prevents any 'start' script from
         # working, as it is needed in runtime.
         REPO_DIR: /srv/repo
-        IMAGE_NAME: jbusecke/leap-edu-image
+        IMAGE_NAME: sed2194/leap_education_docker_image
 
     # Lets us monitor disks getting full as images get bigger over time
     - name: Show how much disk space is left
