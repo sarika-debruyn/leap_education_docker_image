@@ -1,0 +1,5 @@
+curl
+tar
+xz-utils
+unzip
+
