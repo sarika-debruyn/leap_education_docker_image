@@ -1,0 +1,12 @@
+#!/bin/bash
+set -euxo pipefail
+
+# Ensure extension is enabled
+jupyter server extension enable --py jupyter_vscode_proxy
+
+# Force-install frontend extension
+jupyter labextension install jupyter-vscode-proxy --no-build
+
+# Build lab to register launcher icon
+jupyter lab build
+

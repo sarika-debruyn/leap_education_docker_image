@@ -21,6 +21,7 @@ dependencies:
   - cbsyst
   - colorcet
   - seaborn
+  - nodejs
   - pip
   - pip:
     - git+https://github.com/atmtools/climt@rrtmg-only
